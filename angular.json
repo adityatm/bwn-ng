@@ -7,7 +7,7 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "bwm",
       "schematics": {},
       "architect": {
         "build": {
@@ -88,7 +88,7 @@
               "src/assets"
             ]
           }
-        },
+        },                
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
@@ -131,6 +131,7 @@
         }
       }
     }
-  },
+},
   "defaultProject": "bwm-ng"
 }
+ 
